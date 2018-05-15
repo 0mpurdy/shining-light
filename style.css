@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+}
+.banner {
+  width: 100%;
+}
+.container {
+  display: flex;
+  padding: 20px;
+}
+.main {
+  width:80vw;
+}
+
+/* 
+ * Sidenav based on https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed2
+ */
+.sidenav {
+  width: 20vw;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+}
+.sidenav a:hover {
+    color: #064579;
+}
+.centered {
+  text-align: center;
+}
+.wrapped {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid rgba(64, 114, 196);
+  border-radius: 5px;
+}
+
+h1.article {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgba(64, 114, 196);
+  color: white;
+}
+
+/*
+ * Form css based on: https://www.w3schools.com/css/css_form.asp
+ */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+  }
+}
