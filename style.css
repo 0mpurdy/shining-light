@@ -34,7 +34,7 @@ body {
 .wrapped {
   margin: 5px;
   padding: 5px;
-  border: 2px solid rgba(64, 114, 196);
+  border: 2px solid #4072C4;
   border-radius: 5px;
 }
 
@@ -42,7 +42,7 @@ h1.article {
   display: block;
   padding: 5px;
   border-radius: 5px;
-  background: rgba(64, 114, 196);
+  background: #4072C4;
   color: white;
 }
 
