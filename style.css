@@ -5,12 +5,29 @@ body {
 .banner {
   width: 100%;
 }
-.container {
-  display: flex;
-  padding: 20px;
+
+.vertical-flex {
+  flex-direction: column;
 }
-.main {
-  width:80vw;
+
+h1 {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  background: #4072C4;
+  color: white;
+  text-align: center;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 
@@ -39,22 +56,8 @@ body {
   border-radius: 5px;
 }
 
-h1.article {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  background: #4072C4;
-  color: white;
-}
-
 img.preview {
   width: 10vw;
-}
-
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /*
