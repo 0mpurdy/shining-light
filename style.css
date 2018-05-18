@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .banner {
   width: 100%;
@@ -44,6 +45,16 @@ h1.article {
   border-radius: 5px;
   background: #4072C4;
   color: white;
+}
+
+img.preview {
+  width: 10vw;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*
