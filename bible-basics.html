@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <img src="banner.png" alt="Shining light banner" class="banner"/>
+  <img src="banner.png" alt="Shining light banner" class="banner" />
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -41,49 +41,54 @@
     </div>
   </nav>
 
-  <div class="container vertical-flex">
-      <h1>Resources</h1>
-
-      <div class="container">
-
-        <div class="row">
-            <div class="col-3">
-              <img src="preview.png" class="preview" alt="preview" />
-            </div>
-            <div class="col vertical-center">
-                <p>Spring 2018</p>
-            </div>
+  <div class="container">
+    <h1 class="article">Bible Basics</h1>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Baptism
+            </button>
+          </h5>
         </div>
-
-        <div class="row">
-            <div class="col-3">
-              <img src="preview.png" class="preview" alt="preview" />
-            </div>
-            <div class="col vertical-center">
-                <p>Autumn 2017</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-3">
-              <img src="preview.png" class="preview" alt="preview" />
-            </div>
-            <div class="col vertical-center">
-                <p>Spring 2017</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-3">
-              <img src="preview.png" class="preview" alt="preview" />
-            </div>
-            <div class="col vertical-center">
-                <p>Autumn 2016</p>
-            </div>
-        </div>
-
-      </div>
       
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+              <a href="article.html">Example article</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Deliverance
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+              <a href="article.html">The old man and the new</a><br>
+              <a href="article.html">Christ our deliverer</a>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Faith
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+              <a href="article.html">Example article</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
