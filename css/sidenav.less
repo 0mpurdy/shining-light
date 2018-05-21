@@ -1,0 +1,18 @@
+@import "theme";
+
+/* 
+ * Sidenav based on https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed2
+ */
+ .sidenav {
+    width: 20vw;
+    a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: @secondary-theme;
+        display: block;
+        :hover {
+            color: @primary-theme;
+        }
+    }
+}

@@ -5,11 +5,9 @@ body {
 .banner {
   width: 100%;
 }
-
 .vertical-flex {
   flex-direction: column;
 }
-
 h1 {
   display: block;
   padding: 5px;
@@ -18,33 +16,14 @@ h1 {
   color: white;
   text-align: center;
 }
-
 .vertical-center {
   display: flex;
   align-items: center;
 }
-
 .flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-/* 
- * Sidenav based on https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed2
- */
-.sidenav {
-  width: 20vw;
-}
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #2196F3;
-    display: block;
-}
-.sidenav a:hover {
-    color: #064579;
 }
 .centered {
   text-align: center;
@@ -55,65 +34,79 @@ h1 {
   border: 2px solid #4072C4;
   border-radius: 5px;
 }
-
 img.preview {
   width: 10vw;
 }
-
 /*
  * Form css based on: https://www.w3schools.com/css/css_form.asp
  */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-    box-sizing: border-box;
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-sizing: border-box;
 }
-
 label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
-
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
 }
-
 input[type=submit]:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
-
 .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
+  float: left;
+  width: 25%;
+  margin-top: 6px;
 }
-
 .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+  float: left;
+  width: 75%;
+  margin-top: 6px;
 }
-
 /* Clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
-
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
   }
+}
+.faq-box {
+  margin-top: 60px;
+}
+.faq-box h2 {
+  background-color: #064579;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+.faq-box p {
+  margin-top: -10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-right: solid #064579;
+  border-left: solid #064579;
+  border-bottom: solid #064579;
+  padding: 5px;
 }
