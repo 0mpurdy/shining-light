@@ -110,3 +110,6 @@ input[type=submit]:hover {
   border-bottom: solid #064579;
   padding: 5px;
 }
+.scripture {
+  font-weight: bold;
+}
