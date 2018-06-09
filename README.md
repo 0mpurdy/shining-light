@@ -11,3 +11,8 @@ lessc css/style.less style.css
 ```
 
 [less]: http://lesscss.org/
+
+## Todo
+
+ - [ ] Make FAQ drop down boxes
+ - [ ] Add all Bible basics articles
