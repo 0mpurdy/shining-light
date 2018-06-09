@@ -37,6 +37,12 @@ h1 {
 img.preview {
   width: 10vw;
 }
+.listed .row {
+  margin-bottom: 15px;
+}
+.listed .col-4 {
+  font-weight: bold;
+}
 /*
  * Form css based on: https://www.w3schools.com/css/css_form.asp
  */
