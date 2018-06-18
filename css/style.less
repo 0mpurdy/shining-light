@@ -1,5 +1,12 @@
 @import "theme";
 
+@import "header";
+@import "wrap";
+@import "contact";
+@import "faq";
+@import "bible-basics";
+@import "index";
+
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,35 +20,24 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    display: block;
-    padding: 5px;
-    border-radius: 5px;
-    background: @secondary-theme;
-    color: white;
-    text-align: center;
-}
-
 .vertical-center {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
-.wrapped {
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid @secondary-theme;
-    border-radius: 5px;
+.blurb {
+  .centered;
+  .wrapped;
 }
 
 img.preview {
@@ -62,7 +58,3 @@ img.preview {
   height: 100%;
   text-align: left;
 }
-
-@import "contact";
-@import "faq";
-@import "bible-basics";
