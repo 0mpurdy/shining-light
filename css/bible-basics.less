@@ -67,3 +67,22 @@
     border-color: @baptism-border;
   }
 }
+
+@question-background: #ffc006;
+@question-background-secondary: #fff2cc;
+@question-section-header: #f5b78c;
+
+.question-article {
+  background: linear-gradient(to right, @question-background, @question-background-secondary, @question-background-secondary);
+  h1, h2 {
+    background: @baptism-border;
+  }
+  .section {
+    h2 {
+      background: @question-section-header;
+    }
+  }
+  .wrapped {
+    border-color: @baptism-border;
+  }
+}

@@ -171,6 +171,19 @@ input[type=submit]:hover {
 .additional-reading-article .wrapped {
   border-color: #EC7C30;
 }
+.question-article {
+  background: linear-gradient(to right, #ffc006, #fff2cc, #fff2cc);
+}
+.question-article h1,
+.question-article h2 {
+  background: #EC7C30;
+}
+.question-article .section h2 {
+  background: #f5b78c;
+}
+.question-article .wrapped {
+  border-color: #EC7C30;
+}
 .index-blurb {
   font-size: x-large;
 }
