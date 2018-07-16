@@ -119,37 +119,56 @@ input[type=submit]:hover {
 .scripture {
   font-weight: bold;
 }
+.bible-basics-article {
+  padding-top: 10px;
+}
 .bible-basics-article a.btn {
   width: 100%;
 }
-.baptism-article {
-  background: linear-gradient(to right, #772E53, #EBD7E0, #EBD7E0);
-  padding-top: 10px;
-}
-.baptism-article h1,
-.baptism-article h2 {
-  background: #EC7C30;
-}
-.baptism-article .section {
+.bible-basics-article .section {
   background: white;
   margin-left: 15px;
   margin-right: 15px;
 }
-.baptism-article .section h2 {
-  background: #FFE69B;
+.bible-basics-article .section h2 {
   margin-left: -15px;
   margin-right: -15px;
   padding-left: 10px;
   padding-right: 10px;
 }
-.baptism-article .section p {
+.bible-basics-article .section p {
   margin-bottom: 0px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
 }
-.baptism-article .wrapped {
+.bible-basics-article .wrapped {
   background: white;
+}
+.baptism-article {
+  background: linear-gradient(to right, #772E53, #EBD7E0, #EBD7E0);
+}
+.baptism-article h1,
+.baptism-article h2 {
+  background: #EC7C30;
+}
+.baptism-article .section h2 {
+  background: #FFE69B;
+}
+.baptism-article .wrapped {
+  border-color: #EC7C30;
+}
+.additional-reading-article {
+  background: linear-gradient(to right, #046902, #92d050, #92d050);
+}
+.additional-reading-article h1,
+.additional-reading-article h2 {
+  background: #EC7C30;
+}
+.additional-reading-article .section h2 {
+  background: #c4dbf1;
+}
+.additional-reading-article .wrapped {
   border-color: #EC7C30;
 }
 .index-blurb {
